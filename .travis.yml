@@ -1,7 +1,7 @@
 languege: generic
 sudo: required
 services:
-  - dockerfile
+  - docker
 
 before_install:
   - docker build -t mariofigueira/docker-react -f Dockerfile.dev .
